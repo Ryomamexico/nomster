@@ -3,10 +3,12 @@
 <i><%= @place.address %></i>
 <br><br>
 <p><%= @place.description %></p>
+<div class="picture">
 <% @place.photos.each do |photo| %>
-  <%= image_tag photo.picture %>
+  <%= image_tag(photo.picture, :size => "870x500", :crop => :fill)  %>
   <%= photo.caption %>
 <% end -%>
+</div>
 <!DOCTYPE html>
 <html>
   <head>
