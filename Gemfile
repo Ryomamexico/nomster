@@ -9,6 +9,7 @@ gem 'geocoder'
 gem "figaro", ">=1.0.0"
 gem 'turbolinks'
 gem 'carrierwave', '~> 1.0'
+gem "fog"
 gem 'rails_12factor', group: [:production]
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.9'
